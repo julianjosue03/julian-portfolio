@@ -1,0 +1,84 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;;
+}
+
+html{
+    font-size: 65.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#d7f0f5;
+    padding-left: 23rem;
+}
+
+.header{
+    position: fixed;
+    top:0; left: 0;
+    width: 23rem;
+    height: 100%;
+    padding:0rem;
+    text-align: center;
+}
+
+.header .user img{
+    margin:1rem 0;
+    border:1rem solid transparent;
+    border-radius: 50%;
+    height: 18rem;
+    width: 18rem;
+}
+
+.header .navbar{
+    padding-top: 1rem;
+}
+
+.header .navbar a{
+    display: block;
+    margin:1.5rem 0;
+    padding:.7rem;
+    border-radius: 5rem;
+    font-size: 2rem;        
+    text-decoration: none;
+}
+
+
+#menu-btn{
+    position: fixed;
+    top:1.5rem; left: 1rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    display: none;
+}
+.home{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home .content h3{
+    font-size: 8rem;
+    text-transform: uppercase;
+}       
+
+#home{
+    background-color: #c9d9f2;}
+
+#tools{
+    background-color: #c9d9f2;
+    }
+footer{
+    background-color: #c9d9f2
+}
